@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import musicloyout from '@/components/musicLayout/index.vue'
 import side from '@/components/side/index1.vue'
+import MusicFooter from '@/components/footer/index.vue'
+import Main from '@/components/main/index.vue'
 </script>
 
 <template>
@@ -10,10 +12,10 @@ import side from '@/components/side/index1.vue'
         <side></side>
       </template>
       <template #main>
-        <div>主内容</div>
+        <Main></Main>
       </template>
       <template #footer>
-        <div>底部</div>
+        <MusicFooter></MusicFooter>
       </template>
     </musicloyout>
   </div>
