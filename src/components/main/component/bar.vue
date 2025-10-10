@@ -22,7 +22,7 @@
         :pagination="{ clickable: true }"
         :autoplay="{ delay: 2500, disableOnInteraction: false }"
         :modules="modules"
-        class="myswiper flex-shrink-0 w-1/2 aspect-[2.78/1] bg-amber-200 rounded-sm shadow-sm"
+        class="myswiper flex-shrink-0 w-1/2 xl:w-2/5 aspect-[2.78/1] bg-amber-200 rounded-sm shadow-sm"
         @swiper="onSwiper"
       >
         <swiper-slide>Slide 1</swiper-slide>
@@ -33,14 +33,14 @@
       </swiper>
 
       <div
-        class="flex-shrink-0 w-1/2 aspect-[2.78/1] bg-amber-200 rounded-sm overflow-hidden shadow-sm"
+        class="flex-shrink-0 w-1/2 xl:w-2/5 aspect-[2.78/1] bg-amber-200 rounded-sm overflow-hidden shadow-sm"
       >
         <img src="" alt="" />
       </div>
 
       <!-- 第三个元素会超出，触发滚动条 -->
       <div
-        class="flex-shrink-0 w-1/5 aspect-[2.78/1] bg-amber-300 rounded-sm overflow-hidden shadow-sm"
+        class="flex-shrink-0 w-1/5 xl:w-1/5 aspect-[2.78/1] bg-amber-300 rounded-sm overflow-hidden shadow-sm"
       >
         <img src="" alt="" />
       </div>
@@ -136,6 +136,7 @@ const handleRightArrowClick = () => {
 }
 
 // 定义你的函数
+//为什么窗口放大时 滚动正常 窗口缩小时 滚动不正常
 const handleResize = () => {
   if (!rightArrowActive.value) {
     handleLeftArrowClick()
