@@ -1,1 +1,8 @@
 @import 'tailwindcss';
+
+@layer utilities {
+  .linear-swiper {
+    width: clamp(375px, calc(375px + (100vw - 1024px) / 512 * 100px), 475px);
+    height: clamp(140px, calc(140px + (100vw - 1024px) / 512 * 35px), 175px);
+  }
+}

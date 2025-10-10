@@ -1,0 +1,15 @@
+export default {
+  theme: {
+    extend: {
+      // 手动设置你希望的 px 值
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1056px',
+        xl: '1253px', // 手动设置你希望的 px 值
+        2xl: '1536px',
+      },
+    },
+  },
+  plugins: [require('tailwind-scrollbar-hide')],
+}
