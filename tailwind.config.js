@@ -7,7 +7,7 @@ export default { //mater1
         md: '768px',
         lg: '1056px',
         xl: '1253px', // 手动设置你希望的 px 值 //main分支新增代码 // 主分支又提交代码///fasdfasf
-        2xl: '1536px',
+        2xl: '1536px',//cp1 新增
       },
     },
   },
