@@ -1,5 +1,5 @@
 export default { //mater1
-  theme: {
+  theme: { // master 新增
     extend: {
       // 手动设置你希望的 px 值     //master提交1
       screens: {
