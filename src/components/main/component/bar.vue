@@ -22,7 +22,7 @@
         :pagination="{ clickable: true }"
         :autoplay="{ delay: 2500, disableOnInteraction: false }"
         :modules="modules"
-        class="myswiper flex-shrink-0 w-1/2 xl:w-2/5 aspect-[2.78/1] bg-amber-200 rounded-sm shadow-sm"
+        class="myswiper flex-shrink-0 w-1/2 xl:w-[375px] aspect-[75/28] bg-amber-200 rounded-sm shadow-sm"
         @swiper="onSwiper"
       >
         <swiper-slide>Slide 1</swiper-slide>
@@ -33,18 +33,19 @@
       </swiper>
 
       <div
-        class="flex-shrink-0 w-1/2 xl:w-2/5 aspect-[2.78/1] bg-amber-200 rounded-sm overflow-hidden shadow-sm"
+        class="flex-shrink-0 w-1/2 xl:w-[375px] aspect-[75/28] bg-amber-200 rounded-sm overflow-hidden shadow-sm"
       >
         <img src="" alt="" />
       </div>
 
       <!-- 第三个元素会超出，触发滚动条 -->
       <div
-        class="flex-shrink-0 w-1/5 xl:w-1/5 aspect-[2.78/1] bg-amber-300 rounded-sm overflow-hidden shadow-sm"
+        class="flex-shrink-0 xl:w-[175px] aspect-[75/28] bg-amber-300 rounded-sm overflow-hidden shadow-sm"
       >
         <img src="" alt="" />
       </div>
-      <div class="flex-shrink-0 w-1/2 aspect-[2.78/1] rounded-sm">
+      <!-- 占位元素 -->
+      <div class="flex-shrink-0 w-1/2 aspect-[75/28] rounded-sm">
         <img src="" alt="" />
       </div>
     </div>
