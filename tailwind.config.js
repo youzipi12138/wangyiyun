@@ -1,4 +1,4 @@
-export default {
+export default { //mater1
   theme: {
     extend: {
       // 手动设置你希望的 px 值     //master提交1
