@@ -1,7 +1,7 @@
 export default {
   theme: {
     extend: {
-      // 手动设置你希望的 px 值
+      // 手动设置你希望的 px 值     //master提交1
       screens: {
         sm: '640px',          // master提交
         md: '768px',
