@@ -6,7 +6,7 @@ export default {
         sm: '640px',
         md: '768px',
         lg: '1056px',
-        xl: '1253px', // 手动设置你希望的 px 值
+        xl: '1253px', // 手动设置你希望的 px 值 //main分支新增代码
         2xl: '1536px',
       },
     },
