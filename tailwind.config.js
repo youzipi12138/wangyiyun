@@ -12,4 +12,4 @@ export default {
     },
   },
   plugins: [require('tailwind-scrollbar-hide')], //master
-}
+} //cp1新增
